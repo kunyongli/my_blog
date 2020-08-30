@@ -19,6 +19,7 @@
                         </form>
                     </li>
                         <li><a href="{% url 'articles:create' %}">New Article</a> </li>
+                        <li><a href="{% url 'articles:resume' %}">Resume</a> </li>
                     {% else %}
                         <li><a href="{% url 'accounts:login' %}">Login</a> </li>
                         <li><a href="{% url 'accounts:signup' %}">Signup</a> </li>

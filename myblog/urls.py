@@ -12,7 +12,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url('articles/',include('articles.urls')),
     url(r'^accounts/', include('accounts.urls')),
-    url(r'^about/$',views.about),
+    url(r'^resume/$',views.resume),
     url(r'^$',article_views.article_list,name="home"),
 ]
 
